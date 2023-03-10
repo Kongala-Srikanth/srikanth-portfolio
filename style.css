@@ -1,0 +1,405 @@
+/* nav bar style */
+
+#homeButton {
+    border-width: 0px;
+    margin-right: 10px;
+    border-radius: 8px;
+    margin-bottom: 5px;
+}
+
+#homeButton:hover{
+    background-color: #dfdef7;
+    text-decoration: underline;
+}
+
+#aboutButton {
+    border-width: 0px;
+    margin-right: 10px;
+    border-radius: 8px;
+    margin-bottom: 5px;
+}
+#aboutButton:hover{
+    background-color: #dfdef7;
+    text-decoration: underline;
+}
+
+
+#skillsButton {
+    border-width: 0px;
+    margin-right: 10px;
+    border-radius: 8px;
+    margin-bottom: 5px;
+}
+#skillsButton:hover{
+    background-color: #dfdef7;
+    text-decoration: underline;
+}
+
+#projectsButton {
+    border-width: 0px;
+    margin-right: 10px;
+    border-radius: 8px;
+    margin-bottom: 5px;
+}
+#projectsButton:hover{
+    background-color: #dfdef7;
+    text-decoration: underline;
+}
+
+#contactButton {
+    border-width: 0px;
+    margin-right: 10px;
+    border-radius: 8px;
+    margin-bottom: 5px;
+}
+#contactButton:hover{
+    background-color: #dfdef7;
+    text-decoration: underline;
+}
+
+#followMe{
+    border-width: 0px;
+    margin-right: 10px;
+    border-radius: 8px;
+    margin-bottom: 5px;
+}
+
+#followMe:hover{
+    background-color: #dfdef7;
+    text-decoration: underline;
+}
+
+
+
+.pic-bg{
+    background-color: #B8DBDB;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-top-right-radius: 20%;
+    border-bottom-left-radius: 20%;
+    padding: 10px;
+    padding-bottom: 30px;
+    height: 520px;
+    width: 520px;
+}
+
+
+/* ABOUT PAGE */
+
+.main-heading{
+    color: #3A395E;
+    font-weight: 700;
+    font-family: sans-serif;
+    font-size: 50px;
+    margin-top: 40%;
+}
+
+.spacial-style{
+    color: #7051EF;
+    font-weight: 800;
+    font-family: 'roboto slab';
+}
+
+.spacial-style:hover{
+    color:  rgb(10, 171, 235);
+}
+
+.my-pic{
+    border-radius: 50%;
+    border-style: solid;
+    border-color: #7051EF;
+    border-width: 30px;
+    transition: 1s;
+}
+
+.my-pic:hover{
+    border-color: rgb(9, 165, 226);
+    transition: 1s;
+}
+
+.about-text{
+    color: #3A395E;  
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: justify;
+    padding: 15px;
+    margin-right: 0px;
+    margin-left: 15px;
+    border-left-style: solid;
+    border-color: #e5e5f5;
+    
+}
+
+.white-card{
+    background-color: white;
+    margin-top: 15%;
+    border-radius: 30px;
+    position: relative;
+    margin-bottom: 15%;
+    text-align: center;
+}
+
+.white-card:hover{
+    border-width: 2px;
+    border-color: rgb(240, 169, 169);
+    border-style: solid;
+
+}
+
+
+.about-heading{
+    color: #7051EF;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 15px;
+    text-decoration: underline;
+    transition: 1s;
+}
+
+.style-text{
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.style-text:hover{
+    font-size: 21px;
+    font-weight: 600;
+    color: #7051EF;
+    transition: 0.5s;
+}
+
+.name{
+    color: #7051EF;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 45px;
+    text-decoration: underline;
+    transition: 1s;
+}
+
+/* SKILLS PAGE */
+
+.skill-card{
+    background-color: white;
+    border-radius: 15px;
+    padding: 5px;
+    margin: auto;
+}
+
+.skills-title{
+    font-family: sans-serif;
+    font-size: 17px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.paragraph{
+    font-family: sans-serif;
+    font-size: 17px;
+    text-align: justify;
+    padding: 15px;
+    margin-right: 0px;
+    margin-left: 15px;
+    border-top-style: solid;
+    border-color: #ebeaf8;
+}
+
+.project-heading{ 
+    font-family: sans-serif;
+    font-size: 17px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.box-size{
+    height: 600px;
+    overflow: hidden;
+}
+
+.form-box-size{
+    width: 400px;
+    height: 35px;
+    margin-bottom: 25px;
+}
+
+#formName{
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+#formEmail{
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+#formFeedback{ 
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+/* SOCIAL MEDIA */
+
+#facebook{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#whatsapp{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#twitter{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#youtube{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#instagram{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#linkedin{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#telegram{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* DARK MODE */
+.dark-mode{
+    color: white;
+}
+
+.main-heading-dark{
+    color: white;
+}
+
+.black-card{
+    background-color: #414141;
+    color: white;
+    border-color: white;
+}
+
+.dark-mode-about-title{
+    color: #a7cefd;
+}
+
+.dark-mode-name{
+    color: #a7cefd;
+}
+
+.dark-mode-card{
+    background-color: #414141;
+    color: white;
+    border-color: white;
+}
+
+.dark-mode-title{
+    color: #a7cefd;
+}
+
+.dark-mode-project-name{
+    color: #a7cefd;
+}
+
+.dark-mode-project-card{
+    background-color: #414141;
+    color: white;
+    border-color: white;
+}
+
+.footer-icon-color{
+    color: white;
+}
+
+.home-button{
+    position: sticky;
+}
+
+.about-story{
+    color: #3A395E;  
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 15px;
+    text-align: justify;
+    background-color: white;
+    border-radius: 25px;
+
+
+}
+
+.story{
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    background-color: #83AFD4;
+    height: 370px;
+}
+
+.story-pic{
+    border-radius: 50%;
+    border-style: double;
+    border-width: 10px;
+    border-color: #5f627a;
+
+
+}
+
+.story-card{
+    background-color: #B6BADD;
+}
+
+.margin{
+    margin-bottom: 350px;
+    padding-top: 10px;
+}
+@keyframes animate {
+    from {
+        transform: translateX(5%);
+    }
+    to{
+        transform: translateY(-5%);
+    }
+}
+
+.aa{
+    animation: animate 8s alternate-reverse infinite;
+}
+
+@keyframes animate-bg {
+    from {
+        transform: translateX(0%);
+    }
+    to{
+        transform: translateY(3%);
+    }
+}
+
+.bgcolor{
+    background-image: linear-gradient(#EEA0E8,#7bd2e6);
+    height: 50vh;
+    border-bottom-right-radius: 100%;
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 8px;
+    animation: animate-bg 6s alternate-reverse infinite;
+}
+
+.box{
+    background-color: green;
+    height: 150px;
+    width: 150px;
+}
